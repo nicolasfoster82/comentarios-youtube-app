@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:wght@600&display=swap");
+
+:root {
+    --bg: #f4efe6;
+    --paper: rgba(255, 252, 246, 0.92);
+    --ink: #13263a;
+    --muted: #5f6f7e;
+    --line: rgba(19, 38, 58, 0.12);
+    --accent: #0f8f8a;
+    --accent-deep: #0c5f75;
+    --accent-soft: #d9f3ef;
+    --gold: #c3922e;
+    --shadow: 0 24px 80px rgba(18, 38, 53, 0.12);
+    --radius-lg: 32px;
+    --radius-md: 22px;
+    --radius-sm: 14px;
+    --max: 1120px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Space Grotesk", "Segoe UI", sans-serif;
+    color: var(--ink);
+    background:
+        radial-gradient(circle at top left, rgba(15, 143, 138, 0.15), transparent 30%),
+        radial-gradient(circle at top right, rgba(195, 146, 46, 0.14), transparent 28%),
+        linear-gradient(180deg, #f7f4ee 0%, #efe8dd 100%);
+}
+
+a {
+    color: var(--accent-deep);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.site-shell {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.site-shell::before,
+.site-shell::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(8px);
+    opacity: 0.55;
+    pointer-events: none;
+}
+
+.site-shell::before {
+    width: 28rem;
+    height: 28rem;
+    top: -9rem;
+    left: -8rem;
+    background: rgba(15, 143, 138, 0.16);
+}
+
+.site-shell::after {
+    width: 22rem;
+    height: 22rem;
+    right: -6rem;
+    bottom: 10rem;
+    background: rgba(195, 146, 46, 0.16);
+}
+
+.container {
+    width: min(calc(100% - 2rem), var(--max));
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.topbar {
+    padding: 1.25rem 0 0;
+}
+
+.topbar__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.95rem 1.2rem;
+    background: rgba(255, 252, 246, 0.78);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 999px;
+    box-shadow: 0 10px 35px rgba(18, 38, 53, 0.08);
+    backdrop-filter: blur(14px);
+}
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.85rem;
+    color: var(--ink);
+    text-decoration: none;
+}
+
+.brand:hover {
+    text-decoration: none;
+}
+
+.brand__mark {
+    width: 2.7rem;
+    height: 2.7rem;
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+    color: #fff;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-deep) 100%);
+    border-radius: 18px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.brand__eyebrow {
+    margin: 0 0 0.1rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.brand__name {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.topnav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    justify-content: flex-end;
+}
+
+.topnav a {
+    font-size: 0.95rem;
+    color: var(--muted);
+}
+
+.hero {
+    padding: 4rem 0 2rem;
+}
+
+.hero__card {
+    position: relative;
+    overflow: hidden;
+    padding: 2.6rem;
+    border-radius: var(--radius-lg);
+    background:
+        linear-gradient(140deg, rgba(255, 253, 248, 0.95) 0%, rgba(244, 249, 248, 0.9) 55%, rgba(229, 243, 241, 0.92) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.78);
+    box-shadow: var(--shadow);
+}
+
+.hero__card::after {
+    content: "";
+    position: absolute;
+    inset: auto -4rem -5rem auto;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(15, 143, 138, 0.18), transparent 68%);
+}
+
+.eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 0 1rem;
+    padding: 0.45rem 0.8rem;
+    border-radius: 999px;
+    background: rgba(15, 143, 138, 0.1);
+    color: var(--accent-deep);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.hero h1,
+.page-hero h1 {
+    margin: 0;
+    max-width: 14ch;
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: clamp(2.6rem, 5vw, 4.9rem);
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+}
+
+.hero__lead,
+.page-hero__lead {
+    max-width: 46rem;
+    margin: 1.2rem 0 0;
+    font-size: 1.14rem;
+    line-height: 1.8;
+    color: var(--muted);
+}
+
+.hero__grid,
+.grid-3,
+.grid-2 {
+    display: grid;
+    gap: 1.2rem;
+}
+
+.hero__grid {
+    margin-top: 2rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.card,
+.stat,
+.legal-card {
+    padding: 1.3rem;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    box-shadow: 0 10px 30px rgba(18, 38, 53, 0.05);
+}
+
+.stat__value {
+    margin: 0;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold);
+}
+
+.stat h2,
+.card h2,
+.legal-card h2 {
+    margin: 0.55rem 0 0;
+    font-size: 1.15rem;
+}
+
+.card p,
+.stat p,
+.legal-card p,
+.legal-card li {
+    color: var(--muted);
+    line-height: 1.75;
+}
+
+.section {
+    padding: 1.6rem 0 3.6rem;
+}
+
+.section__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+    margin-bottom: 1.4rem;
+}
+
+.section__head h2 {
+    margin: 0;
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    line-height: 1.04;
+}
+
+.section__head p {
+    max-width: 34rem;
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.75;
+}
+
+.card__icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    display: grid;
+    place-items: center;
+    border-radius: 14px;
+    background: var(--accent-soft);
+    color: var(--accent-deep);
+    font-weight: 700;
+}
+
+.steps {
+    counter-reset: step;
+}
+
+.step {
+    position: relative;
+    padding-left: 4.4rem;
+}
+
+.step::before {
+    counter-increment: step;
+    content: "0" counter(step);
+    position: absolute;
+    left: 1.1rem;
+    top: 1.1rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    display: grid;
+    place-items: center;
+    border-radius: 999px;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-deep) 100%);
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.callout {
+    margin-top: 1.4rem;
+    padding: 1.25rem 1.4rem;
+    border-left: 4px solid var(--gold);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    background: rgba(195, 146, 46, 0.09);
+    color: var(--ink);
+}
+
+.legal-hero {
+    padding: 3.3rem 0 1.4rem;
+}
+
+.page-hero {
+    padding: 2.2rem 0;
+}
+
+.page-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin-bottom: 1rem;
+    color: var(--muted);
+    font-size: 0.92rem;
+}
+
+.legal-card h3 {
+    margin: 1.4rem 0 0.6rem;
+    font-size: 1.08rem;
+}
+
+.legal-card ul {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.footer {
+    padding: 1rem 0 2.4rem;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0 0;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.93rem;
+}
+
+.footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.pill-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.2rem;
+    padding: 0.8rem 1rem;
+    border-radius: 999px;
+    background: rgba(15, 143, 138, 0.09);
+    color: var(--accent-deep);
+    font-weight: 700;
+}
+
+@media (max-width: 960px) {
+    .hero__grid,
+    .grid-3,
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .section__head,
+    .footer__inner,
+    .topbar__inner {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .topnav {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 640px) {
+    .hero {
+        padding-top: 2.6rem;
+    }
+
+    .hero__card,
+    .card,
+    .stat,
+    .legal-card {
+        padding: 1.2rem;
+        border-radius: 22px;
+    }
+
+    .step {
+        padding-left: 1.2rem;
+    }
+
+    .step::before {
+        position: static;
+        margin-bottom: 0.9rem;
+    }
+}
