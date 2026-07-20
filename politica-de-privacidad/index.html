@@ -37,7 +37,11 @@
         <main class="legal-hero">
             <div class="container">
                 <div class="page-hero">
-                    <p class="page-meta" data-i18n="page-meta">Documento p&uacute;blico para Google Cloud y usuarios finales</p>
+                    <p class="page-meta">
+                        <span data-i18n="page-meta">Documento p&uacute;blico para Google Cloud y usuarios finales</span>
+                        <span aria-hidden="true">&middot;</span>
+                        <span data-i18n="last-updated">&Uacute;ltima actualizaci&oacute;n: 20 de julio de 2026</span>
+                    </p>
                     <h1 data-i18n="page-title">Pol&iacute;tica de privacidad</h1>
                     <p class="page-hero__lead" data-i18n="page-lead">
                         Esta p&aacute;gina explica c&oacute;mo se procesan los datos cuando un visitante usa las funciones del sitio relacionadas
@@ -46,57 +50,96 @@
                 </div>
 
                 <article class="legal-card">
-                    <h3 data-i18n="section-1-title">1. Alcance</h3>
+                    <h3 data-i18n="section-1-title">1. Responsable y alcance</h3>
                     <p data-i18n="section-1-body">
-                        Este sitio utiliza el plugin Reproductor de YouTube para mostrar videos y, de forma opcional, permitir que una persona
-                        inicie sesi&oacute;n con su cuenta de Google para publicar comentarios en YouTube desde el sitio.
+                        BeHealth PR es responsable del tratamiento descrito en esta pol&iacute;tica. La aplicaci&oacute;n Comentarios de YouTube de
+                        BeHealth PR utiliza el plugin Reproductor de YouTube para mostrar videos y, de forma opcional, permitir que una persona
+                        conecte su cuenta de Google y publique en YouTube el comentario que haya escrito y confirmado.
                     </p>
 
-                    <h3 data-i18n="section-2-title">2. Datos que pueden procesarse</h3>
+                    <h3 data-i18n="section-2-title">2. Datos del usuario de Google a los que accedemos</h3>
                     <ul>
-                        <li data-i18n="section-2-item-1">Datos t&eacute;cnicos del navegador y de la conexi&oacute;n necesarios para cargar el sitio y los videos embebidos.</li>
-                        <li data-i18n="section-2-item-2">Datos enviados por Google y YouTube durante el proceso de autorizaci&oacute;n, como identificadores de acceso y autorizaci&oacute;n.</li>
-                        <li data-i18n="section-2-item-3">El contenido de los comentarios que la persona decide publicar en YouTube.</li>
+                        <li data-i18n="section-2-item-1">El c&oacute;digo de autorizaci&oacute;n y los tokens OAuth de acceso o renovaci&oacute;n emitidos por Google despu&eacute;s del consentimiento del usuario.</li>
+                        <li data-i18n="section-2-item-2">Los identificadores de cuenta o canal de YouTube que la API proporcione y que sean necesarios para asociar la acci&oacute;n con la cuenta autenticada.</li>
+                        <li data-i18n="section-2-item-3">El texto del comentario que el usuario escribe y decide enviar, junto con el identificador del video de YouTube en el que se publicar&aacute;.</li>
+                        <li data-i18n="section-2-item-4">Datos t&eacute;cnicos del navegador, la conexi&oacute;n y registros de seguridad necesarios para entregar y proteger el servicio.</li>
+                    </ul>
+                    <p data-i18n="section-2-body">
+                        La aplicaci&oacute;n no solicita ni almacena la contrase&ntilde;a de Google y no accede a correos electr&oacute;nicos, contactos,
+                        archivos de Drive, fotograf&iacute;as ni otros datos de Google ajenos a la funci&oacute;n de publicar comentarios en YouTube.
+                    </p>
+
+                    <h3 data-i18n="section-3-title">3. C&oacute;mo accedemos a los datos</h3>
+                    <p data-i18n="section-3-body">
+                        El acceso comienza &uacute;nicamente cuando el usuario selecciona la opci&oacute;n para conectarse. La autenticaci&oacute;n y el
+                        consentimiento se realizan directamente en Google. Despu&eacute;s de que el usuario autoriza el permiso solicitado, Google
+                        entrega a la aplicaci&oacute;n credenciales OAuth limitadas, que se usan para enviar a la API de YouTube el comentario que
+                        el propio usuario confirma. La aplicaci&oacute;n no publica comentarios sin esa acci&oacute;n expresa.
+                    </p>
+
+                    <h3 data-i18n="section-4-title">4. Uso de los datos</h3>
+                    <p data-i18n="section-4-body">
+                        Usamos los datos del usuario de Google exclusivamente para autenticar la cuenta, mantener la sesi&oacute;n autorizada y
+                        publicar mediante la API de YouTube el comentario solicitado por el usuario en el video seleccionado. No utilizamos
+                        esos datos para publicidad, elaboraci&oacute;n de perfiles, evaluaciones crediticias ni finalidades distintas de esta funci&oacute;n visible.
+                    </p>
+
+                    <h3 data-i18n="section-5-title">5. Almacenamiento y conservaci&oacute;n</h3>
+                    <ul>
+                        <li data-i18n="section-5-item-1">Las cookies de sesi&oacute;n y los identificadores t&eacute;cnicos se conservan solo mientras sean necesarios para operar y proteger la sesi&oacute;n.</li>
+                        <li data-i18n="section-5-item-2">Los tokens OAuth se conservan &uacute;nicamente durante el tiempo necesario para ofrecer la funci&oacute;n autorizada, hasta que caduquen, el usuario desconecte su cuenta, solicite su eliminaci&oacute;n o revoque el acceso.</li>
+                        <li data-i18n="section-5-item-3">La aplicaci&oacute;n no conserva una copia del comentario con una finalidad independiente. Una vez publicado, Google y YouTube conservan el comentario conforme a la configuraci&oacute;n de la cuenta y a sus propias pol&iacute;ticas.</li>
+                        <li data-i18n="section-5-item-4">Los registros t&eacute;cnicos y de seguridad se conservan solo durante el per&iacute;odo razonablemente necesario para operar, diagnosticar y proteger el servicio.</li>
                     </ul>
 
-                    <h3 data-i18n="section-3-title">3. Inicio de sesi&oacute;n con Google y comentarios en YouTube</h3>
-                    <p data-i18n="section-3-body-1">
-                        Cuando una persona elige conectar su cuenta de Google, la autenticaci&oacute;n se realiza en los servicios de Google.
-                        Este sitio no solicita ni almacena la contrase&ntilde;a de Google del usuario.
-                    </p>
-                    <p data-i18n="section-3-body-2">
-                        Para poder publicar comentarios, el sistema solicita autorizaci&oacute;n para interactuar con la cuenta de YouTube del usuario.
-                        Esa autorizaci&oacute;n puede revocarse en cualquier momento desde la cuenta de Google del usuario.
-                    </p>
-
-                    <h3 data-i18n="section-4-title">4. Almacenamiento t&eacute;cnico</h3>
-                    <p data-i18n="section-4-body">
-                        El sitio puede almacenar de forma temporal identificadores t&eacute;cnicos, cookies y tokens de acceso o renovaci&oacute;n
-                        necesarios para mantener la sesi&oacute;n y permitir la publicaci&oacute;n de comentarios solicitada por el usuario.
-                    </p>
-
-                    <h3 data-i18n="section-5-title">5. Servicios de terceros</h3>
-                    <p data-i18n="section-5-body">
-                        Los videos, comentarios y el flujo de autenticaci&oacute;n dependen de servicios de Google y YouTube.
-                        El uso de esos servicios tambi&eacute;n se encuentra sujeto a sus propias pol&iacute;ticas y condiciones.
-                    </p>
-
-                    <h3 data-i18n="section-6-title">6. Finalidad del tratamiento</h3>
+                    <h3 id="data-sharing" data-i18n="section-6-title">6. Con qui&eacute;n compartimos, transferimos o divulgamos datos</h3>
+                    <ul>
+                        <li data-i18n="section-6-item-1">Google LLC y YouTube: intercambiamos las credenciales OAuth necesarias con Google y enviamos a la API de YouTube el identificador del video y el comentario confirmado, exclusivamente para autenticar al usuario y ejecutar la publicaci&oacute;n solicitada. El comentario publicado puede quedar visible en YouTube y asociado a la cuenta o canal del usuario, seg&uacute;n su configuraci&oacute;n.</li>
+                        <li data-i18n="section-6-item-2">Proveedores de alojamiento e infraestructura de BeHealth PR: pueden procesar solicitudes, datos de sesi&oacute;n y registros t&eacute;cnicos solo en la medida necesaria para alojar, operar y proteger la aplicaci&oacute;n, sujetos a obligaciones de confidencialidad y seguridad y sin autorizaci&oacute;n para usarlos con fines propios.</li>
+                    </ul>
                     <p data-i18n="section-6-body">
-                        Los datos se utilizan exclusivamente para mostrar videos, habilitar la autenticaci&oacute;n voluntaria del usuario
-                        y permitir la publicaci&oacute;n de comentarios en YouTube desde el sitio.
+                        No vendemos datos del usuario de Google ni los compartimos, transferimos o divulgamos a anunciantes, redes publicitarias,
+                        corredores de datos u otros terceros para sus propios fines. Fuera de los destinatarios indicados, solo podremos divulgar
+                        datos cuando el usuario lo autorice expresamente, cuando sea necesario para investigar abuso o incidentes de seguridad,
+                        o cuando lo exija la ley aplicable.
                     </p>
 
-                    <h3 data-i18n="section-7-title">7. Conservaci&oacute;n</h3>
+                    <h3 id="data-protection" data-i18n="section-7-title">7. Protecci&oacute;n de datos sensibles</h3>
                     <p data-i18n="section-7-body">
-                        Los datos t&eacute;cnicos y tokens asociados a la autenticaci&oacute;n se conservar&aacute;n solo durante el tiempo necesario
-                        para prestar la funcionalidad solicitada o hasta que caduquen, se eliminen o el usuario revoque el acceso.
+                        Tratamos los tokens OAuth y dem&aacute;s credenciales de autorizaci&oacute;n como datos confidenciales. Las conexiones entre el
+                        navegador, nuestros servidores y las API de Google se protegen mediante HTTPS/TLS. Los tokens se mantienen en sistemas
+                        del servidor no accesibles desde el contenido p&uacute;blico del sitio; el acceso administrativo se restringe a personal
+                        autorizado mediante controles de acceso y el principio de m&iacute;nimo privilegio. Tambi&eacute;n aplicamos actualizaciones de
+                        seguridad, revisi&oacute;n de accesos y procedimientos para revocar o eliminar credenciales que ya no sean necesarias.
                     </p>
 
-                    <h3 data-i18n="section-8-title">8. Derechos y contacto</h3>
+                    <h3 data-i18n="section-8-title">8. Uso limitado de datos de Google</h3>
                     <p data-i18n="section-8-body">
-                        Si tienes consultas sobre el tratamiento de datos en este sitio, utiliza los canales de contacto publicados por
-                        el responsable del sitio.
+                        El uso y la transferencia a cualquier otra aplicaci&oacute;n de la informaci&oacute;n recibida de las API de Google cumplir&aacute;n
+                        la Pol&iacute;tica de Datos de Usuario de los Servicios de API de Google, incluidos sus requisitos de Uso limitado. Ninguna
+                        persona accede al contenido de los datos del usuario de Google salvo con el consentimiento expreso del usuario, por
+                        motivos de seguridad, para cumplir la ley o cuando los datos est&eacute;n agregados y se usen para operaciones internas leg&iacute;timas.
+                    </p>
+                    <p>
+                        <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer" data-i18n="google-data-policy-link">Consultar la Pol&iacute;tica de Datos de Usuario de los Servicios de API de Google</a>
+                    </p>
+
+                    <h3 data-i18n="section-9-title">9. Revocaci&oacute;n y eliminaci&oacute;n</h3>
+                    <p data-i18n="section-9-body">
+                        El usuario puede revocar el acceso de la aplicaci&oacute;n desde la secci&oacute;n de conexiones de terceros de su Cuenta de Google.
+                        Tambi&eacute;n puede solicitar la eliminaci&oacute;n de los tokens y otros datos de Google que conserve la aplicaci&oacute;n escribiendo a
+                        nicolas@behealthpr.com. Procesaremos la solicitud y eliminaremos o anonimizaremos los datos que no debamos conservar por ley.
+                        Para eliminar un comentario ya publicado, el usuario debe hacerlo desde YouTube o solicitarlo mediante los mecanismos de YouTube.
+                    </p>
+                    <p>
+                        <a href="https://myaccount.google.com/connections" target="_blank" rel="noopener noreferrer" data-i18n="google-connections-link">Administrar conexiones de terceros en la Cuenta de Google</a>
+                    </p>
+
+                    <h3 data-i18n="section-10-title">10. Contacto y cambios</h3>
+                    <p data-i18n="section-10-body">
+                        Para consultas sobre privacidad o para ejercer derechos de acceso, correcci&oacute;n o eliminaci&oacute;n, escribe a
+                        nicolas@behealthpr.com. Actualizaremos esta pol&iacute;tica si cambia la forma en que la aplicaci&oacute;n accede, usa, almacena
+                        o comparte datos del usuario de Google, e indicaremos la fecha de la revisi&oacute;n en esta p&aacute;gina.
                     </p>
                 </article>
             </div>

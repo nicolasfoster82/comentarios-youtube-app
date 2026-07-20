@@ -260,6 +260,10 @@ const translations = {
                 es: "Documento público para Google Cloud y usuarios finales",
                 en: "Public document for Google Cloud and end users"
             },
+            "last-updated": {
+                es: "Última actualización: 20 de julio de 2026",
+                en: "Last updated: July 20, 2026"
+            },
             "page-title": {
                 es: "Política de privacidad",
                 en: "Privacy Policy"
@@ -269,80 +273,128 @@ const translations = {
                 en: "This page explains how data is processed when a visitor uses the site's features related to YouTube videos and comments published through Google and YouTube."
             },
             "section-1-title": {
-                es: "1. Alcance",
-                en: "1. Scope"
+                es: "1. Responsable y alcance",
+                en: "1. Data controller and scope"
             },
             "section-1-body": {
-                es: "Este sitio utiliza el plugin Reproductor de YouTube para mostrar videos y, de forma opcional, permitir que una persona inicie sesión con su cuenta de Google para publicar comentarios en YouTube desde el sitio.",
-                en: "This site uses the YouTube Player plugin to display videos and, optionally, allow a person to sign in with their Google account to publish comments on YouTube from the site."
+                es: "BeHealth PR es responsable del tratamiento descrito en esta política. La aplicación Comentarios de YouTube de BeHealth PR utiliza el plugin Reproductor de YouTube para mostrar videos y, de forma opcional, permitir que una persona conecte su cuenta de Google y publique en YouTube el comentario que haya escrito y confirmado.",
+                en: "BeHealth PR is responsible for the processing described in this policy. The BeHealth PR YouTube Comments application uses the YouTube Player plugin to display videos and, optionally, allow a person to connect their Google account and publish on YouTube the comment they have written and confirmed."
             },
             "section-2-title": {
-                es: "2. Datos que pueden procesarse",
-                en: "2. Data that may be processed"
+                es: "2. Datos del usuario de Google a los que accedemos",
+                en: "2. Google user data we access"
             },
             "section-2-item-1": {
-                es: "Datos técnicos del navegador y de la conexión necesarios para cargar el sitio y los videos embebidos.",
-                en: "Technical browser and connection data required to load the site and embedded videos."
+                es: "El código de autorización y los tokens OAuth de acceso o renovación emitidos por Google después del consentimiento del usuario.",
+                en: "The authorization code and OAuth access or refresh tokens issued by Google after the user gives consent."
             },
             "section-2-item-2": {
-                es: "Datos enviados por Google y YouTube durante el proceso de autorización, como identificadores de acceso y autorización.",
-                en: "Data sent by Google and YouTube during the authorization process, such as access and authorization identifiers."
+                es: "Los identificadores de cuenta o canal de YouTube que la API proporcione y que sean necesarios para asociar la acción con la cuenta autenticada.",
+                en: "YouTube account or channel identifiers provided by the API that are necessary to associate the action with the authenticated account."
             },
             "section-2-item-3": {
-                es: "El contenido de los comentarios que la persona decide publicar en YouTube.",
-                en: "The content of the comments that the person chooses to publish on YouTube."
+                es: "El texto del comentario que el usuario escribe y decide enviar, junto con el identificador del video de YouTube en el que se publicará.",
+                en: "The comment text that the user writes and chooses to submit, together with the identifier of the YouTube video on which it will be posted."
+            },
+            "section-2-item-4": {
+                es: "Datos técnicos del navegador, la conexión y registros de seguridad necesarios para entregar y proteger el servicio.",
+                en: "Technical browser and connection data and security logs needed to deliver and protect the service."
+            },
+            "section-2-body": {
+                es: "La aplicación no solicita ni almacena la contraseña de Google y no accede a correos electrónicos, contactos, archivos de Drive, fotografías ni otros datos de Google ajenos a la función de publicar comentarios en YouTube.",
+                en: "The application does not request or store the user's Google password and does not access emails, contacts, Drive files, photos, or other Google data unrelated to the YouTube comment-posting feature."
             },
             "section-3-title": {
-                es: "3. Inicio de sesión con Google y comentarios en YouTube",
-                en: "3. Google sign-in and YouTube comments"
+                es: "3. Cómo accedemos a los datos",
+                en: "3. How we access the data"
             },
-            "section-3-body-1": {
-                es: "Cuando una persona elige conectar su cuenta de Google, la autenticación se realiza en los servicios de Google. Este sitio no solicita ni almacena la contraseña de Google del usuario.",
-                en: "When a person chooses to connect their Google account, authentication takes place on Google's services. This site does not request or store the user's Google password."
-            },
-            "section-3-body-2": {
-                es: "Para poder publicar comentarios, el sistema solicita autorización para interactuar con la cuenta de YouTube del usuario. Esa autorización puede revocarse en cualquier momento desde la cuenta de Google del usuario.",
-                en: "In order to publish comments, the system requests authorization to interact with the user's YouTube account. That authorization can be revoked at any time from the user's Google account."
+            "section-3-body": {
+                es: "El acceso comienza únicamente cuando el usuario selecciona la opción para conectarse. La autenticación y el consentimiento se realizan directamente en Google. Después de que el usuario autoriza el permiso solicitado, Google entrega a la aplicación credenciales OAuth limitadas, que se usan para enviar a la API de YouTube el comentario que el propio usuario confirma. La aplicación no publica comentarios sin esa acción expresa.",
+                en: "Access begins only when the user selects the option to connect. Authentication and consent take place directly with Google. After the user authorizes the requested permission, Google provides the application with limited OAuth credentials, which are used to send the comment confirmed by the user to the YouTube API. The application does not post comments without that explicit action."
             },
             "section-4-title": {
-                es: "4. Almacenamiento técnico",
-                en: "4. Technical storage"
+                es: "4. Uso de los datos",
+                en: "4. How we use the data"
             },
             "section-4-body": {
-                es: "El sitio puede almacenar de forma temporal identificadores técnicos, cookies y tokens de acceso o renovación necesarios para mantener la sesión y permitir la publicación de comentarios solicitada por el usuario.",
-                en: "The site may temporarily store technical identifiers, cookies, and access or refresh tokens required to maintain the session and enable the comment posting requested by the user."
+                es: "Usamos los datos del usuario de Google exclusivamente para autenticar la cuenta, mantener la sesión autorizada y publicar mediante la API de YouTube el comentario solicitado por el usuario en el video seleccionado. No utilizamos esos datos para publicidad, elaboración de perfiles, evaluaciones crediticias ni finalidades distintas de esta función visible.",
+                en: "We use Google user data exclusively to authenticate the account, maintain the authorized session, and post through the YouTube API the comment requested by the user on the selected video. We do not use this data for advertising, profiling, credit assessment, or purposes unrelated to this visible feature."
             },
             "section-5-title": {
-                es: "5. Servicios de terceros",
-                en: "5. Third-party services"
+                es: "5. Almacenamiento y conservación",
+                en: "5. Storage and retention"
             },
-            "section-5-body": {
-                es: "Los videos, comentarios y el flujo de autenticación dependen de servicios de Google y YouTube. El uso de esos servicios también se encuentra sujeto a sus propias políticas y condiciones.",
-                en: "Videos, comments, and the authentication flow depend on Google and YouTube services. The use of those services is also subject to their own policies and terms."
+            "section-5-item-1": {
+                es: "Las cookies de sesión y los identificadores técnicos se conservan solo mientras sean necesarios para operar y proteger la sesión.",
+                en: "Session cookies and technical identifiers are retained only while needed to operate and protect the session."
+            },
+            "section-5-item-2": {
+                es: "Los tokens OAuth se conservan únicamente durante el tiempo necesario para ofrecer la función autorizada, hasta que caduquen, el usuario desconecte su cuenta, solicite su eliminación o revoque el acceso.",
+                en: "OAuth tokens are retained only for as long as needed to provide the authorized feature, until they expire, the user disconnects their account, requests deletion, or revokes access."
+            },
+            "section-5-item-3": {
+                es: "La aplicación no conserva una copia del comentario con una finalidad independiente. Una vez publicado, Google y YouTube conservan el comentario conforme a la configuración de la cuenta y a sus propias políticas.",
+                en: "The application does not retain a copy of the comment for an independent purpose. Once posted, Google and YouTube retain the comment according to the account settings and their own policies."
+            },
+            "section-5-item-4": {
+                es: "Los registros técnicos y de seguridad se conservan solo durante el período razonablemente necesario para operar, diagnosticar y proteger el servicio.",
+                en: "Technical and security logs are retained only for the period reasonably necessary to operate, diagnose, and protect the service."
             },
             "section-6-title": {
-                es: "6. Finalidad del tratamiento",
-                en: "6. Purpose of processing"
+                es: "6. Con quién compartimos, transferimos o divulgamos datos",
+                en: "6. Who we share, transfer, or disclose data to"
+            },
+            "section-6-item-1": {
+                es: "Google LLC y YouTube: intercambiamos las credenciales OAuth necesarias con Google y enviamos a la API de YouTube el identificador del video y el comentario confirmado, exclusivamente para autenticar al usuario y ejecutar la publicación solicitada. El comentario publicado puede quedar visible en YouTube y asociado a la cuenta o canal del usuario, según su configuración.",
+                en: "Google LLC and YouTube: we exchange the necessary OAuth credentials with Google and send the video identifier and confirmed comment to the YouTube API solely to authenticate the user and carry out the requested publication. The posted comment may be visible on YouTube and associated with the user's account or channel, depending on their settings."
+            },
+            "section-6-item-2": {
+                es: "Proveedores de alojamiento e infraestructura de BeHealth PR: pueden procesar solicitudes, datos de sesión y registros técnicos solo en la medida necesaria para alojar, operar y proteger la aplicación, sujetos a obligaciones de confidencialidad y seguridad y sin autorización para usarlos con fines propios.",
+                en: "BeHealth PR hosting and infrastructure providers: they may process requests, session data, and technical logs only to the extent necessary to host, operate, and protect the application, subject to confidentiality and security obligations and without permission to use them for their own purposes."
             },
             "section-6-body": {
-                es: "Los datos se utilizan exclusivamente para mostrar videos, habilitar la autenticación voluntaria del usuario y permitir la publicación de comentarios en YouTube desde el sitio.",
-                en: "The data is used exclusively to display videos, enable voluntary user authentication, and allow the publication of comments on YouTube from the site."
+                es: "No vendemos datos del usuario de Google ni los compartimos, transferimos o divulgamos a anunciantes, redes publicitarias, corredores de datos u otros terceros para sus propios fines. Fuera de los destinatarios indicados, solo podremos divulgar datos cuando el usuario lo autorice expresamente, cuando sea necesario para investigar abuso o incidentes de seguridad, o cuando lo exija la ley aplicable.",
+                en: "We do not sell Google user data or share, transfer, or disclose it to advertisers, advertising networks, data brokers, or other third parties for their own purposes. Other than the recipients listed above, we may disclose data only when the user expressly authorizes it, when necessary to investigate abuse or security incidents, or when required by applicable law."
             },
             "section-7-title": {
-                es: "7. Conservación",
-                en: "7. Retention"
+                es: "7. Protección de datos sensibles",
+                en: "7. Protection of sensitive data"
             },
             "section-7-body": {
-                es: "Los datos técnicos y tokens asociados a la autenticación se conservarán solo durante el tiempo necesario para prestar la funcionalidad solicitada o hasta que caduquen, se eliminen o el usuario revoque el acceso.",
-                en: "Technical data and tokens associated with authentication will be retained only for as long as necessary to provide the requested functionality or until they expire, are deleted, or the user revokes access."
+                es: "Tratamos los tokens OAuth y demás credenciales de autorización como datos confidenciales. Las conexiones entre el navegador, nuestros servidores y las API de Google se protegen mediante HTTPS/TLS. Los tokens se mantienen en sistemas del servidor no accesibles desde el contenido público del sitio; el acceso administrativo se restringe a personal autorizado mediante controles de acceso y el principio de mínimo privilegio. También aplicamos actualizaciones de seguridad, revisión de accesos y procedimientos para revocar o eliminar credenciales que ya no sean necesarias.",
+                en: "We treat OAuth tokens and other authorization credentials as confidential data. Connections between the browser, our servers, and Google APIs are protected using HTTPS/TLS. Tokens are kept in server systems that are not accessible from the site's public content; administrative access is restricted to authorized personnel through access controls and the principle of least privilege. We also apply security updates, access reviews, and procedures to revoke or delete credentials that are no longer needed."
             },
             "section-8-title": {
-                es: "8. Derechos y contacto",
-                en: "8. Rights and contact"
+                es: "8. Uso limitado de datos de Google",
+                en: "8. Limited Use of Google data"
             },
             "section-8-body": {
-                es: "Si tienes consultas sobre el tratamiento de datos en este sitio, utiliza los canales de contacto publicados por el responsable del sitio.",
-                en: "If you have questions about data processing on this site, use the contact channels published by the site owner."
+                es: "El uso y la transferencia a cualquier otra aplicación de la información recibida de las API de Google cumplirán la Política de Datos de Usuario de los Servicios de API de Google, incluidos sus requisitos de Uso limitado. Ninguna persona accede al contenido de los datos del usuario de Google salvo con el consentimiento expreso del usuario, por motivos de seguridad, para cumplir la ley o cuando los datos estén agregados y se usen para operaciones internas legítimas.",
+                en: "The use and transfer to any other application of information received from Google APIs will adhere to the Google API Services User Data Policy, including its Limited Use requirements. No person accesses the content of Google user data except with the user's express consent, for security purposes, to comply with the law, or when the data is aggregated and used for legitimate internal operations."
+            },
+            "google-data-policy-link": {
+                es: "Consultar la Política de Datos de Usuario de los Servicios de API de Google",
+                en: "Read the Google API Services User Data Policy"
+            },
+            "section-9-title": {
+                es: "9. Revocación y eliminación",
+                en: "9. Revocation and deletion"
+            },
+            "section-9-body": {
+                es: "El usuario puede revocar el acceso de la aplicación desde la sección de conexiones de terceros de su Cuenta de Google. También puede solicitar la eliminación de los tokens y otros datos de Google que conserve la aplicación escribiendo a nicolas@behealthpr.com. Procesaremos la solicitud y eliminaremos o anonimizaremos los datos que no debamos conservar por ley. Para eliminar un comentario ya publicado, el usuario debe hacerlo desde YouTube o solicitarlo mediante los mecanismos de YouTube.",
+                en: "The user can revoke the application's access from the third-party connections section of their Google Account. They can also request deletion of tokens and other Google data retained by the application by emailing nicolas@behealthpr.com. We will process the request and delete or anonymize data that we are not legally required to retain. To delete an already-posted comment, the user must do so from YouTube or request it through YouTube's mechanisms."
+            },
+            "google-connections-link": {
+                es: "Administrar conexiones de terceros en la Cuenta de Google",
+                en: "Manage third-party connections in your Google Account"
+            },
+            "section-10-title": {
+                es: "10. Contacto y cambios",
+                en: "10. Contact and changes"
+            },
+            "section-10-body": {
+                es: "Para consultas sobre privacidad o para ejercer derechos de acceso, corrección o eliminación, escribe a nicolas@behealthpr.com. Actualizaremos esta política si cambia la forma en que la aplicación accede, usa, almacena o comparte datos del usuario de Google, e indicaremos la fecha de la revisión en esta página.",
+                en: "For privacy questions or to exercise rights of access, correction, or deletion, email nicolas@behealthpr.com. We will update this policy if the way the application accesses, uses, stores, or shares Google user data changes, and we will indicate the revision date on this page."
             },
             "support-label": {
                 es: "Contacto de soporte:",
