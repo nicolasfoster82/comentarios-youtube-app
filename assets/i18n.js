@@ -5,20 +5,20 @@ const translations = {
     home: {
         text: {
             "meta-title": {
-                es: "Comentarios de YouTube de BeHealth PR",
-                en: "BeHealth PR YouTube Comments"
+                es: "BeHealth PR Comentarios",
+                en: "BeHealth PR Comentarios"
             },
             "meta-description": {
-                es: "Homepage pública de la app Comentarios de YouTube de BeHealth PR para la verificación de Google OAuth.",
-                en: "Public homepage for the BeHealth PR YouTube Comments app used in Google OAuth verification."
+                es: "Homepage pública de la aplicación BeHealth PR Comentarios.",
+                en: "Public homepage for the BeHealth PR Comentarios application."
             },
             "brand-eyebrow": {
                 es: "BeHealth PR",
                 en: "BeHealth PR"
             },
             "brand-name": {
-                es: "Comentarios de YouTube",
-                en: "YouTube Comments"
+                es: "BeHealth PR Comentarios",
+                en: "BeHealth PR Comentarios"
             },
             "nav-home": {
                 es: "Homepage de la app",
@@ -41,24 +41,28 @@ const translations = {
                 en: "App homepage"
             },
             "hero-title": {
-                es: "Comentarios de YouTube de BeHealth PR",
-                en: "BeHealth PR YouTube Comments"
+                es: "BeHealth PR Comentarios",
+                en: "BeHealth PR Comentarios"
             },
             "hero-lead": {
-                es: "Comentarios de YouTube de BeHealth PR es una funcionalidad implementada mediante un plugin de WordPress en este sitio. Permite que los visitantes inicien sesión con su cuenta de Google para publicar comentarios en videos de YouTube embebidos dentro de BeHealth PR.",
-                en: "BeHealth PR YouTube Comments is a feature implemented through a WordPress plugin on this site. It allows visitors to sign in with their Google account to post comments on YouTube videos embedded within BeHealth PR."
+                es: "BeHealth PR Comentarios es una funcionalidad implementada mediante un plugin de WordPress en este sitio. Permite que los visitantes inicien sesión con su cuenta de Google para publicar comentarios en videos de YouTube embebidos dentro de BeHealth PR.",
+                en: "BeHealth PR Comentarios is a feature implemented through a WordPress plugin on this site. It allows visitors to sign in with their Google account to post comments on YouTube videos embedded within BeHealth PR."
+            },
+            "independence-disclaimer": {
+                es: "BeHealth PR Comentarios es una aplicación propia de BeHealth PR e independiente de Google y YouTube. No está afiliada, patrocinada ni respaldada por esas empresas.",
+                en: "BeHealth PR Comentarios is operated by BeHealth PR and is independent from Google and YouTube. It is not affiliated with, sponsored by, or endorsed by those companies."
             },
             "stat-1-label": {
                 es: "Autenticación",
                 en: "Authentication"
             },
             "stat-1-title": {
-                es: "Google OAuth",
-                en: "Google OAuth"
+                es: "Conexión autorizada",
+                en: "Authorized connection"
             },
             "stat-1-body": {
-                es: "La app usa Google OAuth únicamente para autenticar al usuario y solicitar el permiso necesario para comentar en YouTube.",
-                en: "The app uses Google OAuth only to authenticate the user and request the permission required to comment on YouTube."
+                es: "La app usa el flujo de autorización de Google únicamente para autenticar al usuario y solicitar el permiso necesario para comentar en YouTube.",
+                en: "The app uses Google's authorization flow only to authenticate the user and request the permission required to comment on YouTube."
             },
             "stat-2-label": {
                 es: "Uso del acceso",
@@ -169,8 +173,8 @@ const translations = {
                 en: "Visible links for users and reviewers"
             },
             "legal-lead": {
-                es: "Estos enlaces deben permanecer públicos y accesibles sin login para que Google pueda completar la verificación de la app.",
-                en: "These links must remain public and accessible without login so Google can complete the app verification."
+                es: "Estos enlaces permanecen públicos y accesibles sin iniciar sesión para que cualquier usuario pueda consultar cómo funciona la aplicación.",
+                en: "These links remain public and accessible without signing in so that any user can review how the application works."
             },
             "privacy-card-title": {
                 es: "Política de privacidad",
@@ -225,20 +229,20 @@ const translations = {
     privacy: {
         text: {
             "meta-title": {
-                es: "Política de privacidad | Comentarios de YouTube de BeHealth PR",
-                en: "Privacy Policy | BeHealth PR YouTube Comments"
+                es: "Política de privacidad | BeHealth PR Comentarios",
+                en: "Privacy Policy | BeHealth PR Comentarios"
             },
             "meta-description": {
-                es: "Política de privacidad de la integración Comentarios de YouTube de BeHealth PR.",
-                en: "Privacy Policy for the BeHealth PR YouTube Comments integration."
+                es: "Política de privacidad de la aplicación BeHealth PR Comentarios.",
+                en: "Privacy Policy for the BeHealth PR Comentarios application."
             },
             "brand-eyebrow": {
-                es: "Google OAuth",
-                en: "Google OAuth"
+                es: "BeHealth PR",
+                en: "BeHealth PR"
             },
             "brand-name": {
-                es: "Comentarios de YouTube de BeHealth PR",
-                en: "BeHealth PR YouTube Comments"
+                es: "BeHealth PR Comentarios",
+                en: "BeHealth PR Comentarios"
             },
             "nav-home": {
                 es: "Homepage de la app",
@@ -257,12 +261,12 @@ const translations = {
                 en: "Language"
             },
             "page-meta": {
-                es: "Documento público para Google Cloud y usuarios finales",
-                en: "Public document for Google Cloud and end users"
+                es: "Documento legal público para usuarios finales",
+                en: "Public legal document for end users"
             },
             "last-updated": {
-                es: "Última actualización: 20 de julio de 2026",
-                en: "Last updated: July 20, 2026"
+                es: "Última actualización: 22 de julio de 2026",
+                en: "Last updated: July 22, 2026"
             },
             "page-title": {
                 es: "Política de privacidad",
@@ -277,8 +281,8 @@ const translations = {
                 en: "1. Data controller and scope"
             },
             "section-1-body": {
-                es: "BeHealth PR es responsable del tratamiento descrito en esta política. La aplicación Comentarios de YouTube de BeHealth PR utiliza el plugin Reproductor de YouTube para mostrar videos y, de forma opcional, permitir que una persona conecte su cuenta de Google y publique en YouTube el comentario que haya escrito y confirmado.",
-                en: "BeHealth PR is responsible for the processing described in this policy. The BeHealth PR YouTube Comments application uses the YouTube Player plugin to display videos and, optionally, allow a person to connect their Google account and publish on YouTube the comment they have written and confirmed."
+                es: "BeHealth PR es responsable del tratamiento descrito en esta política. BeHealth PR Comentarios es una aplicación propia de BeHealth PR e independiente de Google y YouTube; no está afiliada, patrocinada ni respaldada por esas empresas. Utiliza un plugin para mostrar videos y, de forma opcional, permitir que una persona conecte su cuenta de Google y publique en YouTube el comentario que haya escrito y confirmado.",
+                en: "BeHealth PR is responsible for the processing described in this policy. BeHealth PR Comentarios is operated by BeHealth PR and is independent from Google and YouTube; it is not affiliated with, sponsored by, or endorsed by those companies. It uses a plugin to display videos and, optionally, allow a person to connect their Google account and publish on YouTube the comment they have written and confirmed."
             },
             "section-2-title": {
                 es: "2. Datos del usuario de Google a los que accedemos",
@@ -425,20 +429,20 @@ const translations = {
     terms: {
         text: {
             "meta-title": {
-                es: "Condiciones del servicio | Comentarios de YouTube de BeHealth PR",
-                en: "Terms of Service | BeHealth PR YouTube Comments"
+                es: "Condiciones del servicio | BeHealth PR Comentarios",
+                en: "Terms of Service | BeHealth PR Comentarios"
             },
             "meta-description": {
-                es: "Condiciones del servicio de la integración Comentarios de YouTube de BeHealth PR.",
-                en: "Terms of Service for the BeHealth PR YouTube Comments integration."
+                es: "Condiciones del servicio de la aplicación BeHealth PR Comentarios.",
+                en: "Terms of Service for the BeHealth PR Comentarios application."
             },
             "brand-eyebrow": {
-                es: "Google OAuth",
-                en: "Google OAuth"
+                es: "BeHealth PR",
+                en: "BeHealth PR"
             },
             "brand-name": {
-                es: "Comentarios de YouTube de BeHealth PR",
-                en: "BeHealth PR YouTube Comments"
+                es: "BeHealth PR Comentarios",
+                en: "BeHealth PR Comentarios"
             },
             "nav-home": {
                 es: "Homepage de la app",
@@ -457,8 +461,8 @@ const translations = {
                 en: "Language"
             },
             "page-meta": {
-                es: "Documento público para Google Cloud y usuarios finales",
-                en: "Public document for Google Cloud and end users"
+                es: "Documento legal público para usuarios finales",
+                en: "Public legal document for end users"
             },
             "page-title": {
                 es: "Condiciones del servicio",
@@ -473,8 +477,8 @@ const translations = {
                 en: "1. Use of the service"
             },
             "section-1-body": {
-                es: "El sitio permite visualizar contenido de YouTube y, en determinados casos, conectar una cuenta de Google para publicar comentarios en YouTube desde el propio sitio.",
-                en: "The site allows users to view YouTube content and, in certain cases, connect a Google account to publish comments on YouTube directly from the site."
+                es: "BeHealth PR Comentarios es una aplicación propia de BeHealth PR e independiente de Google y YouTube; no está afiliada, patrocinada ni respaldada por esas empresas. Permite visualizar contenido de YouTube y, en determinados casos, conectar una cuenta de Google para publicar comentarios en YouTube desde el sitio.",
+                en: "BeHealth PR Comentarios is operated by BeHealth PR and is independent from Google and YouTube; it is not affiliated with, sponsored by, or endorsed by those companies. It allows users to view YouTube content and, in certain cases, connect a Google account to publish comments on YouTube from the site."
             },
             "section-2-title": {
                 es: "2. Requisitos",
